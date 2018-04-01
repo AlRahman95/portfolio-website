@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+html {
+  /* background: url(images/blue-background.jpg);
+  background: url(https://tinyurl.com/y9u2r5c2); */
+  background: url(https://i.imgur.com/aIjK7gm.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header
+======================================================= */
+
+.main-image-container {
+  position: relative;
+}
+
+.main-image {
+display: block;
+max-width: 100%;
+}
+
+.profile-image-container {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 38%;
+}
+
+.profile-image {
+  border: 9px solid #3b3e91;
+  border-radius: 65px;
+}
+
+.title {
+  color: white;
+  font-family: "lobster", serif;
+  font-size: 3rem;
+  text-shadow: 3px 3px #0003fc;
+}
+
+/* NAV STYLES
+======================================================= */
+
+.main-nav {
+  display: flex;
+  background: black;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  /* flex-wrap: wrap; */
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  transition: .25s;
+  padding: .75rem;
+  padding: 7px 15px;
+}
+
+nav a:hover {
+  color: black;
+  background: white;
+  border-radius: 6px;
+}
+
+.main-nav .active-link {
+  color: rgb(232, 136, 68);
+}
+
+/* Profile Page Content
+======================================================= */
+
+.home-page-title {
+  color: #3c3ebc;
+  font-family: "Bookman", serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #0003fc;
+  text-align: center;
+  width: 250px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+  margin: 2rem auto;
+}
+
+.list-inner-container {
+  width: 900px;
+  height: 370px;
+  background: linear-gradient(to right, #6aaed8, #c477ce);
+  margin: 3rem auto;
+  border: 5px solid purple;
+  border-radius: 20px;
+}
+
+ul.list li {
+  list-style: none;
+  position: relative;
+}
+
+ul.list {
+  float: left;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+ul.list .birthday {
+  margin-bottom: 20px;
+}
+
+ul.list .hobbies, ul.list .tv  {
+  margin-bottom: 100px;
+}
+
+ul.list ul ul {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  width: 500px;
+}
+
+ul.list ul li {
+  color: #5b25ba;
+  text-shadow: 2px 2px #42a2c4;
+  font-family: "Helvetica", serif;
+  font-size: 2rem;
+}
+
+.paragraph-container {
+  background: linear-gradient(to right, #6aaed8, #c477ce);
+  width: 900px;
+  height: 650px;
+  margin: 80px auto;
+  border: 5px solid purple;
+  border-radius: 20px;
+}
+
+.paragraph {
+  font-family: "Trebuchet MS", serif;
+  font-size: 1.1rem;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.paragraph-title {
+  border: 2px solid purple;
+  width: 250px;
+  border-radius: 10px;
+  background: #368bc4;
+  padding: 5px 10px;
+}
+
+/* Gellery Page Content
+======================================================= */
+
+.gallery-page-title {
+  color: #3c3ebc;
+  font-family: "Bookman", serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #0003fc;
+  text-align: center;
+  width: 250px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+  margin: 2rem auto;
+}
+
+.gallery-container {
+  background: linear-gradient(to right, #6aaed8, #c477ce);
+  width: 1450px;
+  height: 950px;
+  margin: 80px auto;
+  border: 5px solid purple;
+  border-radius: 20px;
+}
+
+ul.gallery-list li {
+  list-style: none;
+}
+
+ul.gallery-list .row-1 {
+  float: left;
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.gallery-list .row-2 {
+  float: left;
+  display: flex;
+  margin: 40px auto;
+}
+
+ul.gallery-list .row-1 li {
+  border: 2px solid #194c93;
+  margin-left: 20px;
+  background: linear-gradient(to bottom, #ffd82d, #ef7e28);
+}
+
+ul.gallery-list .row-2 li {
+  border: 2px solid #194c93;
+  margin-left: 30px;
+  background: linear-gradient(to bottom, #82c9c8, #64d147);
+}
+
+.web-dev-1 {
+  padding: 40px 5px;
+}
+
+.web-dev-2 {
+  padding: 50px 5px;
+}
+
+.web-dev-3 {
+  padding: 5px 8px;
+}
+
+.web-dev-4 {
+  padding: 10px 15px;
+}
+
+.web-dev-5 {
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+.web-dev-6 {
+  padding: 10px 10px;
+}
+
+/* .row-1 img {
+  border: 2px solid #194c93;
+  margin-top: 30px;
+  margin-left: 20px;
+  background: linear-gradient(to bottom, #ffd82d, #ef7e28);
+}
+
+.row-2 img {
+  border: 2px solid #194c93;
+  margin-top: 30px;
+  margin-left: 25px;
+  background: linear-gradient(to bottom, #82c9c8, #64d147);
+} */
+
+/* Footer
+======================================================= */
+
+footer {
+  background: #0c1d3f;
+  height: 200px;
+}
+
+.footer-text {
+  text-align: center;
+    background: chocolate;
+    width: 155px;
+    padding: 10px 5px;
+    border: 3px solid black;
+    margin: 50px auto;
+}
+
+.footer-social-icons {
+  text-align: center;
+}
+
+.footerimages {
+  margin: 0px 10px;
+}
